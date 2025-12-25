@@ -1,9 +1,10 @@
 <script setup lang="ts">
 definePage({
   name: 'home',
-  layout: 'tabbar',
+  layout: 'default',
   style: {
     navigationBarTitleText: '首页',
+    navigationStyle: 'custom',
   },
 })
 
